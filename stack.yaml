@@ -1,3 +1,10 @@
 resolver: lts-12.0
+
 packages:
 - .
+
+extra-deps:
+- git: git@github.com:cdepillabout/servant
+  commit: b17fc2b8d48ba6d25cd34799507643dd25a8c0b2
+  subdirs:
+  - servant-client
